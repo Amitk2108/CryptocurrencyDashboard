@@ -2,7 +2,6 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this Repo
 
 ## Cryptocurrency Dashboard Web Application
 
