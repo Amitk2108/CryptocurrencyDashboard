@@ -1,0 +1,10 @@
+*{
+  /* outline: 2px solid rgba(255, 0, 0, 0.379); */
+}
+.custom-scroll::-webkit-scrollbar{
+  width: 5px;
+}
+.custom-scroll::-webkit-scrollbar-thumb{
+  background-color: theme('colors.accent');
+  border-radius: 50px;
+}

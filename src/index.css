@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+}
+
+*{
+      font-family: 'Montserrat', sans-serif;
+
+}
+
+.gridContainer{
+      display: grid;
+      height: 100vh;
+      width: 100%;
+      /* border: solid red 2px; */
+      grid-template-rows:auto 50% auto;
+      grid-template-columns: repeat(2,1fr) minmax(auto,448px);
+      grid-template-areas:
+       'searchbar searchbar marketcap'
+      'chart chart marketcap'
+      'portfolio exchange marketcap';
+}
+
+.searchbar {
+      grid-area: searchbar;
+      padding: 1rem;
+            /* border: solid red 2px; */
+}
+.marketcap{
+      grid-area: marketcap;
+      max-height: 100vh;
+      padding: 1rem;
+            
+            border-left:solid #D89CF6 1px ;
+}
+.chart {
+      grid-area: chart;
+      padding: 1rem;
+            /* border: solid red 2px; */
+}
+.portfolio{
+      grid-area: portfolio;
+      padding: 1rem;
+            /* border: solid red 2px; */
+}
+.exchange {
+      grid-area: exchange;
+      padding: 1rem;
+            /* border: solid red 2px; */
+}
+
+@media screen and (max-width: 1280px) {
+      .gridContainer{
+            display: grid;
+            height: 100vh;
+            grid-template-rows:auto  1fr;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-areas: 'searchbar marketcap'
+            'chart marketcap'
+            'portfolio exchange'
+      }
+      .marketcap{
+            grid-area: marketcap;
+            height: 100%;
+            padding: 1rem;
+      }
+      .portfolio{
+            grid-area: portfolio;
+            padding: 1rem;
+      }
+      .exchange {
+            grid-area: exchange;
+            padding: 1rem;
+      }
+}
+
+@media screen and (max-width: 768px) {
+      .gridContainer{
+            display: grid;
+            height: auto;
+            
+            grid-template-rows:auto;
+            grid-template-columns: auto;
+            grid-template-areas: 'searchbar'
+            'marketcap'
+            'chart'
+            'portfolio'
+            'exchange';
+      }
+      .marketcap{
+            grid-area: marketcap;
+            height: 500px;
+            padding: 1rem;
+      }
+      .portfolio{
+            grid-area: portfolio;
+            padding: 1rem;
+      }
+      .exchange {
+            grid-area: exchange;
+            padding: 1rem;
+      }
+}
