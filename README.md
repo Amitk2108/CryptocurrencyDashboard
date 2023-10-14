@@ -1,13 +1,16 @@
 # Cryptocurrency Dashboard
+
 ## Welcome! 👋
 
 Thanks for checking out this Repo
 
 ## Cryptocurrency Dashboard Web Application
+
 ![readmeAsssets](./readmeAsssets/screenshot.png)
+
 ## Links
 
-- Github URL: [Github](https://github.com/realgautamjakhar/cryptoDashboard)
+- Github URL: [Github](https://github.com/Amitk2108/CryptocurrencyDashboard)
 - Live Site URL: [Live](https://thunderous-pavlova-2f6bd1.netlify.app/)
 
 ## Overview
@@ -18,18 +21,14 @@ A Cryptocurrency Dashboard app built with react js and tailwind css where a user
 
 - Monitor Cryptocurrency Currencies
 - Select a coin and see chart for the same with some additional information like current price, high, low and ranking of the coin in Cryptocurrency market depending on the marketcap
-- Portfolio section where user can see how much fund available  in his/her wallet
+- Portfolio section where user can see how much fund available in account wallet
 - Exchange coin between different cryptocurrencies
-- Different chart user can select based on preference (Line and bar chart)
-- Dark mode
-
-## My process
+- Select chart between Line and bar chart
 
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
 - [Tailwind Css](https://tailwindcss.com/) - For Css
-- [Framer motion](https://www.framer.com/motion/) - For Animation
 - [Redux Toolkit](https://redux-toolkit.js.org/) - For State Management
 - [Chartjs](https://www.chartjs.org/) - For Chart Componenets in App
 - [Headless ui](https://headlessui.com/) - For modals and dropDown menu components
@@ -37,9 +36,9 @@ A Cryptocurrency Dashboard app built with react js and tailwind css where a user
 
 ### Continued development
 
-Adding more feature like comparing different coin
+Working on feature like comparing different coin
 
 ## Author
 
-- Website - [Gautam](https://gautamfolionew.netlify.app/)
-- LinkedIn - [@realgautamjakhar](https://www.linkedin.com/in/gautam-jakhar/)
+- Website - [Amit](https://amitpro.netlify.app/)
+- LinkedIn - [@amit-ib](https://www.linkedin.com/in/amit-ib/)
