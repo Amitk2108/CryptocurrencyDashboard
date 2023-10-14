@@ -11,7 +11,7 @@ Thanks for checking out this Repo
 ## Links
 
 - Github URL: [Github](https://github.com/Amitk2108/CryptocurrencyDashboard)
-- Live Site URL: [Live](https://thunderous-pavlova-2f6bd1.netlify.app/)
+- Live Site URL: [Live](https://currencydashb.netlify.app/)
 
 ## Overview
 
